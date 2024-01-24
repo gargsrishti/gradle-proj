@@ -15,7 +15,8 @@ To reproduce the issue in your environment, follow these steps:
 1. Clone the repository.
 2. Build the project using ./gradlew build.
 3. Check the dependencies in build scan > dependencies. Hamcrest is set to 2.2.
-Note: gradle.lockfile has hamcrest version locked at v2.2 and libs.toml.version hamcrest library is manually set to v2.1. Ideally this should have thrown an error.
+
+Note: app/gradle.lockfile has hamcrest version locked at v2.2 and in gradle/libs.toml.version, hamcrest library is manually set to v2.1. This version mismatch should have thrown an error.
 
 ## Expected Behavior
 
