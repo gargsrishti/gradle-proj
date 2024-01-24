@@ -21,6 +21,7 @@ Note: app/gradle.lockfile has hamcrest version locked at v2.2 and in gradle/libs
 ## Expected Behavior
 
 The expected behavior is that when dependencies are locked using dependency locking and a change is made to a dependency version in the version catalog, the dependencies should not be updated, and the build should fail.
+
 Reference: https://docs.gradle.org/current/userguide/dependency_locking.html#running_a_build_with_lock_state_present
 
 ## Current Behavior
