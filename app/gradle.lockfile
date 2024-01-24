@@ -1,0 +1,15 @@
+# This is a Gradle generated file for dependency locking.
+# Manual edits can break the build and are not advised.
+# This file is expected to be part of source control.
+com.google.code.findbugs:jsr305:3.0.2=compileClasspath
+com.google.errorprone:error_prone_annotations:2.18.0=compileClasspath
+com.google.guava:failureaccess:1.0.1=compileClasspath
+com.google.guava:guava-parent:32.1.2-jre=compileClasspath
+com.google.guava:guava:32.1.2-jre=compileClasspath
+com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava=compileClasspath
+com.google.j2objc:j2objc-annotations:2.8=compileClasspath
+org.checkerframework:checker-qual:3.33.0=compileClasspath
+org.hamcrest:hamcrest-core:2.2=compileClasspath
+org.hamcrest:hamcrest-library:2.2=compileClasspath
+org.hamcrest:hamcrest:2.2=compileClasspath
+empty=
